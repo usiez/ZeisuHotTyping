@@ -22,7 +22,7 @@
 
     function getRandomEmote() {
         // 30% có emote, 70% không có
-        if (Math.random() >= 0.9)
+        if (Math.random() >= 0.7)
             return "";
 
         return EMOTES[Math.floor(Math.random() * EMOTES.length)];
